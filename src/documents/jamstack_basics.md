@@ -1,7 +1,7 @@
 ---
 slug: "/documents/jamstack_basics"
 date: "2021-03-28"
-title: "Basic Jamstac"
+title: "Basic Jamstack"
 id: "9994"
 ---
 
