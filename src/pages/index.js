@@ -10,8 +10,6 @@ import DialogTitle from "@material-ui/core/DialogTitle";
 import TextField from "@material-ui/core/TextField";
 
 const IndexPage = ({data}) => {
-    
-
   const [username, setUsername] = useState("");
   const [dialogVisible, setDialogVisible] = useState(username === null || username.trim() === "");
   useEffect(() => {
