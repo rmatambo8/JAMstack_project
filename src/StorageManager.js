@@ -1,19 +1,16 @@
 import axios from 'axios'
 
-const localStorage = global.localStorage;
-
 export async function getAllMarkerKeysFromStorage(inDocumentID) {
-  global.maskScreen(true)
-  try {
-    const res = await axios.get("/.netlify/functions/getAllMarkerKeysFromStorage",
-      { params: { documentID: inDocumentID } });
-    global.maskScreen(false);
-    return res.data
-  } catch (error) {
-    global.maskScreen(false);
-    alert('Sorry, the remote system could not be reached');
-    return [];
-  }
+global.maskScreen(true); try {
+  const res = await axios.get("/.netlify/functions/getAllMarkerKeysFromStorage",
+    { params: { documentID: inDocumentID } }
+  );
+  global.maskScreen(false);
+  return res.data;
+} catch (inError) {
+  global.maskScreen(false);
+  return [];
+}
   // const markerKeys = [];
   // for (let i = 0; i < localStorage.length; i++) {
   //   const key = localStorage.key(i);
@@ -25,27 +22,31 @@ export async function getAllMarkerKeysFromStorage(inDocumentID) {
 }
 
 export async function getMarkerFromStorage(inKey) {
+
   global.maskScreen(true);
   try {
-    const res = await axios.get("/.netlify/funcctions/getMarkerFromStorage",
-      { params: { key: inKey } });
+    const res = await axios.get("/.netlify/functions/getMarkerFromStorage",
+      { params: { key: inKey } }
+    );
     global.maskScreen(false);
     return res.data.data;
-  } catch (error) {
+  } catch (inError) {
     global.maskScreen(false);
-    throw error;
+    throw inError;
   }
-  // return JSON.parse(localStorage.getItem(inKey));
 }
 
 export async function saveMarkerToStorage(inKey, inMarker, inIsUpdate) {
   global.maskScreen(true);
   try {
     await axios.post("/.netlify/functions/saveMarkerToStorage",
-      { key: inKey, marker: inMarker, isUpdate: inIsUpdate });
-  } catch (error) {
-    console.log("saveMarkerToStorage(): error", error);
+      {
+        key: inKey,
+        marker: inMarker,
+        isUpdate: inIsUpdate
+      });
+  } catch (inError) {
+    console.log("saveMarkerToStorage(): inError", inError);
   }
   global.maskScreen(false);
-  // localStorage.setItem(inKey, JSON.stringify(inMarker));
 }

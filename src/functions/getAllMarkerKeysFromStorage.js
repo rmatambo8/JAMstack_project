@@ -1,18 +1,22 @@
-const faunadb = require('faunadb');
+const faunadb = require("faunadb");
 const query = faunadb.query;
 
-exports.handler = async function (event, context, callback) {
-  const documentID = event.queryStringParameters.documentID;
-  const client = new faunadb.Client({
-    secret: process.env.FAUNADB_SERVER_SECRET
-  });
 
-  const response = await client.query(
-    query.Paginate(query.Match(query.Ref("indexes/markers")))
-  );
+exports.handler = async function(inEvent, inContext, inCallback) {
+  const documentID = inEvent.queryStringParameters.documentID
 
-  const docRefs = response.data;
-  let keys = docRefs.filter(ref => ref.id.startsWith(documentID));
-  keys = keys.map(ref => ref.id);
-  callback(null, { statusCode: 200, body: JSON.stringify(keys) });
-}
+  const client = new faunadb.Client({ secret: process.env.FAUNADB_SERVER_SECRET });
+  await client.query(query.Paginate(query.Match(query.Ref("indexes/markers"))))
+    .then(async inResponse => {
+      const docRefs = inResponse.data;
+      let keys = docRefs.filter(inRef => inRef.id.startsWith(documentID));
+      keys = keys.map(inRef => inRef.id);
+
+      inCallback(null, { statusCode : 200, body : JSON.stringify(keys) });
+
+    })
+    .catch(inError => {
+      return { statusCode : 400, body : JSON.stringify(inError) };
+    });
+
+};

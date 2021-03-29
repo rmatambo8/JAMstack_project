@@ -169,8 +169,6 @@ export default class Template extends React.Component {
  */
 async function loadMarkers() {
 
-  console.log("loadMarkers()");
-
   const markerKeys = await StorageManager.getAllMarkerKeysFromStorage(fm.id);
   console.log("loadMarkers(): markerKeys", markerKeys);
   markerKeys.forEach(function(inKey) {
@@ -205,10 +203,7 @@ async function addMarker() {
     markerText : range.toString(),
     comments : [ ]
   };
-  console.log("addMarker(): marker", marker);
 
-  // Save the marker.  The key is a unique ID formed with the document's ID and a timestamp (this means there is the
-  // potential for ID collisions, but the odds are pretty low... but ideally, instead of a timestamp, a GUID would
   // be produced - sounds like a "suggested exercise" to me!).
   const key = `${fm.id}${new Date().getTime()}`;
   await StorageManager.saveMarkerToStorage(key, marker, false);
