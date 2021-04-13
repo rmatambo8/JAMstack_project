@@ -1,1 +1,105 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T13:41:22.692Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" version="14.4.4" etag="IEcsMSGRm9S0ZeJ3FPjY" type="github"><diagram id="vptrXCl3eBL0qagWzHTh">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-13T14:29:29.614Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="z8DSPYhNrqD3v0EVKLua" version="14.4.4" type="github">
+  <diagram id="vptrXCl3eBL0qagWzHTh" name="Page-1">
+    <mxGraphModel dx="1755" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-1" value="Client" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="30" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-2" value="DB(Relational?): keeps a log of all actions on each account and changes made to aws account for user things were executed" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="170" y="400" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-3" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="440" as="sourcePoint" />
+            <mxPoint x="400" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-4" value="CDN - dashboard for user interaction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="130" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-5" value="Framework API&#39;s&lt;br&gt;Authenticate user(using AWS &amp;amp; Git), Manage Apps, Deploy to AWS, Destroy assets from AWS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="130" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0d4SWGi4w7tMZuIVvqr7-6" target="0d4SWGi4w7tMZuIVvqr7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-6" value="App Server:&lt;br&gt;Given a repo/folder&lt;br&gt;Install dependencies, Build Assets, separate functions folder based on config" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="235" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0d4SWGi4w7tMZuIVvqr7-7" target="0d4SWGi4w7tMZuIVvqr7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-7" value="App Server: Initiate build, Deploy/Destroy Assets and Lambdas" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-8" value="AWS user account changes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-9" value="Hosting Site(S3):&amp;nbsp;&lt;br&gt;hosts Static Assets (build folder) that is versioned (and functions folder that is versioned if no git pipeline)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="80" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-10" value="CDN: Deploy built content to edge locations with a proxy for function calls to a lambda" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-11" value="Lambda: Cache invalidation, serverless functions folder, Environment Variables" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-12" value="" style="endArrow=classic;html=1;exitX=0.253;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0d4SWGi4w7tMZuIVvqr7-1" target="0d4SWGi4w7tMZuIVvqr7-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="230" as="sourcePoint" />
+            <mxPoint x="450" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-13" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0d4SWGi4w7tMZuIVvqr7-1" target="0d4SWGi4w7tMZuIVvqr7-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="230" as="sourcePoint" />
+            <mxPoint x="450" y="180" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-14" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0d4SWGi4w7tMZuIVvqr7-5" target="0d4SWGi4w7tMZuIVvqr7-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="230" as="sourcePoint" />
+            <mxPoint x="450" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-17" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0d4SWGi4w7tMZuIVvqr7-7" target="0d4SWGi4w7tMZuIVvqr7-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="270" as="sourcePoint" />
+            <mxPoint x="179" y="277" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-18" value="Once Authenticated" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="0d4SWGi4w7tMZuIVvqr7-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-250.3" y="-4.18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-19" value="Once Authenticated" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="299.9991802144247" y="210.0012108275369" as="geometry" />
+        </mxCell>
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-20" value="separated for&lt;br&gt;&amp;nbsp;security" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="310" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-22" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="0d4SWGi4w7tMZuIVvqr7-6" target="0d4SWGi4w7tMZuIVvqr7-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="305" as="sourcePoint" />
+            <mxPoint x="190" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-23" value="Once Authenticated" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="0d4SWGi4w7tMZuIVvqr7-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-250.3" y="-4.18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-25" value="Goal: build a framework that will deploy a jamstack app along with it&#39;s functions folder(of serverless functions) to someone&#39;s aws infrastructure" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-65" y="10" width="770" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0d4SWGi4w7tMZuIVvqr7-26" value="Assumptions:&lt;br&gt;- the framework should be able to work with an aws account&lt;br&gt;- deployment could be from a folder or from github&lt;br&gt;- static content should be cached&lt;br&gt;- Framework should be able to build, deploy, update, and destroy apps build on framework&lt;br&gt;- user can select specific config options from the dashboard&lt;br&gt;- user has the ability to view logs of major activity from the dashboard&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="405" width="490" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
