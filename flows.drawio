@@ -1,52 +1,63 @@
-<mxfile modified="2021-04-30T14:01:04.020Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="QGruvpQ9d_D3_riiMIFP" version="14.6.6" type="github">
+<mxfile modified="2021-04-30T22:14:28.901Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="HBvyJf6CtTpe0RN2sg7y" version="14.6.6" type="github" pages="3">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="2355" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DJ3haOJc1R91Hs69sXxj-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DJ3haOJc1R91Hs69sXxj-3" target="DJ3haOJc1R91Hs69sXxj-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="895" y="634" />
+              <mxPoint x="895" y="635" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJ3haOJc1R91Hs69sXxj-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="569.88" width="605" height="130" as="geometry" />
+        </mxCell>
         <mxCell id="UEzPUAAOIrF-is8g5C7q-109" value="CLI&lt;br&gt;" style="outlineConnect=0;gradientColor=none;fontColor=#545B64;strokeColor=none;fillColor=#879196;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.illustration_desktop;pointerEvents=1;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="90" y="509.44" width="100" height="91" as="geometry" />
+          <mxGeometry x="90" y="439.44" width="100" height="91" as="geometry" />
         </mxCell>
         <mxCell id="eIOd0SFCmoOq624Lqe8P-1" value="Cloud" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="910" y="470" width="201.5" height="149.5" as="geometry" />
+          <mxGeometry x="910" y="400" width="201.5" height="149.5" as="geometry" />
         </mxCell>
         <mxCell id="eIOd0SFCmoOq624Lqe8P-2" value="Deployment Process" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="470" y="450" width="130" height="20" as="geometry" />
+          <mxGeometry x="470" y="380" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="eIOd0SFCmoOq624Lqe8P-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="489.5" width="600" height="130" as="geometry" />
+          <mxGeometry x="260" y="419.5" width="600" height="130" as="geometry" />
         </mxCell>
         <mxCell id="eIOd0SFCmoOq624Lqe8P-4" value="Build Process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="519" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="454.94" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eIOd0SFCmoOq624Lqe8P-5" value="Deployment Process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="519" width="130" height="60" as="geometry" />
+          <mxGeometry x="495" y="454.94" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eIOd0SFCmoOq624Lqe8P-6" value="Config Storage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="519" width="120" height="60" as="geometry" />
+          <mxGeometry x="680" y="454.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eIOd0SFCmoOq624Lqe8P-7" value="core deploy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="489.44" width="230" height="20" as="geometry" />
+          <mxGeometry x="440" y="419.44" width="230" height="20" as="geometry" />
         </mxCell>
         <mxCell id="eIOd0SFCmoOq624Lqe8P-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;elbow=vertical;startArrow=block;startFill=1;endFill=1;strokeColor=#545B64;rounded=0;" edge="1" parent="1" source="UEzPUAAOIrF-is8g5C7q-109">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="540" y="639" as="sourcePoint" />
-            <mxPoint x="258" y="555" as="targetPoint" />
+            <mxPoint x="540" y="569" as="sourcePoint" />
+            <mxPoint x="258" y="485" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eIOd0SFCmoOq624Lqe8P-9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;elbow=vertical;startArrow=block;startFill=1;endFill=1;strokeColor=#545B64;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.196;entryY=0.565;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eIOd0SFCmoOq624Lqe8P-3" target="eIOd0SFCmoOq624Lqe8P-1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="540" y="639" as="sourcePoint" />
-            <mxPoint x="640" y="639" as="targetPoint" />
+            <mxPoint x="540" y="569" as="sourcePoint" />
+            <mxPoint x="640" y="569" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eIOd0SFCmoOq624Lqe8P-11" value="Secrets Deployment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="519" width="120" height="60" as="geometry" />
+          <mxGeometry x="475" y="605.38" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eIOd0SFCmoOq624Lqe8P-12" value="&lt;h1&gt;CORE&lt;/h1&gt;&lt;p&gt;As Expression(s): JAMstack Deployment + Ease of Use FaaS // static site deployment + serverless functions&lt;br&gt;&lt;br&gt;One Sentence: A lightweight framework that builds and deploys static sites&amp;nbsp;onto a user&#39;s AWS account and easily creates serverless functions(lambdas) with custom environment variables for each function.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="140" y="20" width="800" height="90" as="geometry" />
+          <mxGeometry x="140" y="20" width="810" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="eIOd0SFCmoOq624Lqe8P-13" value="Implied Use Cases :&amp;nbsp;&lt;br&gt;- a developer who does not want to manage servers but needs to perform some computations from their front end code&lt;br&gt;- A developer who needs to have serverless functions that have environment variables that are secured(on their infrastructure)&lt;br&gt;- A developer who does not want to go through the hastle of setting up all of the AWS infrastructure to deploy static sites(and lambdas) while also redirecting calls to serverless function using edge lambdas (all while keeping the s3 bucket private)&lt;br&gt;- A developer who wants an easy static site deployment process(like netlify or vercel) while maintaining the ability to customize certain settings using the aws account" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="eIOd0SFCmoOq624Lqe8P-13" value="Implied Use Cases :&amp;nbsp;&lt;br&gt;- a developer who does not want to manage servers but needs to perform some computations from their front end code&lt;br&gt;- A developer who needs to have serverless functions that have environment variables that are secured(on their infrastructure)&lt;br&gt;- A developer who does not want to go through the hassle of setting up all of the AWS infrastructure to deploy static sites(and lambdas) while also redirecting calls to serverless function using edge lambdas (all while keeping the s3 bucket private)&lt;br&gt;- A developer who wants an easy static site deployment process(like netlify or vercel) while maintaining the ability to customize certain settings using the aws account" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="281.5" y="280" width="830" height="20" as="geometry" />
         </mxCell>
         <mxCell id="eIOd0SFCmoOq624Lqe8P-14" value="What is it like?&lt;br&gt;think of it as a simplified version of the easy deployment of static sites(JAMstack Apps) with serverless functions(netlify/vercel/amplify) and the ability to customize because everything is on your aws infrastructure" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
@@ -60,6 +71,340 @@
         </mxCell>
         <mxCell id="eIOd0SFCmoOq624Lqe8P-17" value="How is it different from netlify/vercel, or amplify?&lt;br&gt;- simplified(not as many features)&lt;br&gt;- currently only from cli&lt;br&gt;- tested with react apps(but could do more)&lt;br&gt;- keeps everything on user&#39;s infrastructure()&lt;br&gt;- provisions less resources that amplify" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-20" y="220" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DJ3haOJc1R91Hs69sXxj-1" value="CLI&lt;br&gt;" style="outlineConnect=0;gradientColor=none;fontColor=#545B64;strokeColor=none;fillColor=#879196;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.illustration_desktop;pointerEvents=1;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="70" y="589.8800000000001" width="100" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="DJ3haOJc1R91Hs69sXxj-2" value="Deployment Process" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="530.44" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DJ3haOJc1R91Hs69sXxj-7" value="core secrets" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="569.88" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DJ3haOJc1R91Hs69sXxj-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;elbow=vertical;startArrow=block;startFill=1;endFill=1;strokeColor=#545B64;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DJ3haOJc1R91Hs69sXxj-1" target="DJ3haOJc1R91Hs69sXxj-3">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="520" y="719.44" as="sourcePoint" />
+            <mxPoint x="238" y="635.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJ3haOJc1R91Hs69sXxj-10" value="Cloud" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="930" y="560.63" width="201.5" height="149.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_DQqV1fVRcEvpH1edNQo" name="Page-2">
+    <mxGraphModel dx="1186" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="YWqQUSjZRFtSkR_RxzWw-0" />
+        <mxCell id="YWqQUSjZRFtSkR_RxzWw-1" parent="YWqQUSjZRFtSkR_RxzWw-0" />
+        <mxCell id="YWqQUSjZRFtSkR_RxzWw-2" value="CLI&lt;br&gt;" style="outlineConnect=0;gradientColor=none;fontColor=#545B64;strokeColor=none;fillColor=#879196;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.illustration_desktop;pointerEvents=1;labelBackgroundColor=#ffffff;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="280" y="99.44" width="100" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="YWqQUSjZRFtSkR_RxzWw-3" value="Deployment Process" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="660" y="40" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YWqQUSjZRFtSkR_RxzWw-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="450" y="79.5" width="600" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="YWqQUSjZRFtSkR_RxzWw-5" value="Build Process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="470" y="109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YWqQUSjZRFtSkR_RxzWw-6" value="Deployment Process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="610" y="109" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YWqQUSjZRFtSkR_RxzWw-7" value="Config Storage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="760" y="109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YWqQUSjZRFtSkR_RxzWw-8" value="core deploy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="630" y="79.44" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YWqQUSjZRFtSkR_RxzWw-9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;elbow=vertical;startArrow=block;startFill=1;endFill=1;strokeColor=#545B64;rounded=0;" edge="1" parent="YWqQUSjZRFtSkR_RxzWw-1" source="YWqQUSjZRFtSkR_RxzWw-2">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="730" y="229" as="sourcePoint" />
+            <mxPoint x="448" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YWqQUSjZRFtSkR_RxzWw-1" target="gAit4ke1a6t-_kXfwptP-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="139" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-0" value="Cloud" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="1110" y="64.25" width="201.5" height="149.5" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-4" value="Problem Faced: if a deployment fails, how do we remove everything that was created without removing what was already there?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="360" y="270" width="690" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-7" value="AWS Lambdas Before deploy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="355" y="320" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YWqQUSjZRFtSkR_RxzWw-1" source="gAit4ke1a6t-_kXfwptP-8" target="gAit4ke1a6t-_kXfwptP-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-8" value="someFunction 1&lt;br&gt;function 2&lt;br&gt;function 3&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="610" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-9" value="my project" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="640" y="320" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YWqQUSjZRFtSkR_RxzWw-1" source="gAit4ke1a6t-_kXfwptP-10" target="gAit4ke1a6t-_kXfwptP-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-13" value="failure when deploying function 3&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gAit4ke1a6t-_kXfwptP-12">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-10" value="deployment process" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="770" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YWqQUSjZRFtSkR_RxzWw-1" source="gAit4ke1a6t-_kXfwptP-11" target="gAit4ke1a6t-_kXfwptP-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-36" value="delete" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gAit4ke1a6t-_kXfwptP-35">
+          <mxGeometry x="-0.4117" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-11" value="function 1&lt;br&gt;someFunction1&lt;br&gt;new function 2&lt;br&gt;old function 3" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="1130" y="327.5" width="190.75" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-16" value="AWS Lambdas after Deploy failed" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="1110" y="280" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-17" value="Problems: &lt;br&gt;- if we delete, we are deleting potentially critical infrastructure we did not create&amp;nbsp;&lt;br&gt;- unable to retrieve the previous deployment" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="340" y="425" width="440" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-20" value="&lt;span&gt;function 1&lt;/span&gt;&lt;br&gt;&lt;span&gt;function 2&lt;/span&gt;&lt;br&gt;&lt;span&gt;function 3&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="380" y="340" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-21" value="Note: function 2 and 3 have the same name as a function already on the aws infrastructure" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="510" y="300" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-22" value="Possible solutions: TBD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="215" y="490" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-23" value="How we solved this: versioning" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="510" y="610" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-24" value="AWS Lambdas Before deploy&lt;br&gt;user has specific functions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="222.5" y="655" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YWqQUSjZRFtSkR_RxzWw-1" source="gAit4ke1a6t-_kXfwptP-26" target="gAit4ke1a6t-_kXfwptP-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-26" value="someFunction 1&lt;br&gt;function 2&lt;br&gt;function 3&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="477.5" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-27" value="my project" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="507.5" y="660" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.079;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="YWqQUSjZRFtSkR_RxzWw-1" source="gAit4ke1a6t-_kXfwptP-30" target="gAit4ke1a6t-_kXfwptP-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="997.5" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-29" value="failure when deploying function 3&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gAit4ke1a6t-_kXfwptP-28">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-30" value="deployment process" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="637.5" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-31" value="&lt;span&gt;function 1&lt;/span&gt;&lt;br&gt;&lt;span&gt;function 2&lt;/span&gt;&lt;br&gt;&lt;span&gt;function 3&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="247.5" y="680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YWqQUSjZRFtSkR_RxzWw-1" source="gAit4ke1a6t-_kXfwptP-32" target="gAit4ke1a6t-_kXfwptP-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-32" value="function 1&lt;br&gt;someFunction1 v1&lt;br&gt;function 2&lt;br&gt;function 2 v1&lt;br&gt;old function 3" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="995" y="667.5" width="190.75" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-33" value="deleting only deletes the deployed version of this build" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="695" y="840" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-34" value="function 1&lt;br&gt;old function 3" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="1165.38" y="470" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gAit4ke1a6t-_kXfwptP-37" value="function 1&lt;br&gt;function 2&lt;br&gt;function 3" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="1030.38" y="810" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="re67dTE1wRsbyZqnSVIf-0" value="think about multi tenancy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="YWqQUSjZRFtSkR_RxzWw-1">
+          <mxGeometry x="650" y="530" width="150" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Sd1p1HcNQbVeMWWmCRMC" name="Page-3">
+    <mxGraphModel dx="1186" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="jMvkovBuoHrUsS4-bNUf-0" />
+        <mxCell id="jMvkovBuoHrUsS4-bNUf-1" parent="jMvkovBuoHrUsS4-bNUf-0" />
+        <mxCell id="ijDBPvHtkqdA_Prwevkj-14" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="310" y="310" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-32" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="220" y="670" width="260" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ijDBPvHtkqdA_Prwevkj-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="270" y="850" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-0" value="CLI&lt;br&gt;" style="outlineConnect=0;gradientColor=none;fontColor=#545B64;strokeColor=none;fillColor=#879196;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.illustration_desktop;pointerEvents=1;labelBackgroundColor=#ffffff;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="280" y="99.44" width="100" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-1" value="Secret Deployment Process" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="645" y="40" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="450" y="79.5" width="600" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-6" value="core secrets" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="630" y="79.44" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-7" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;elbow=vertical;startArrow=block;startFill=1;endFill=1;strokeColor=#545B64;rounded=0;" edge="1" parent="jMvkovBuoHrUsS4-bNUf-1" source="1zZ-kXXonkYbU6ajhqvE-0">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="730" y="229" as="sourcePoint" />
+            <mxPoint x="448" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jMvkovBuoHrUsS4-bNUf-1" target="1zZ-kXXonkYbU6ajhqvE-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="139" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-9" value="Secrets Deployment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="690" y="109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-10" value="Cloud" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="1110" y="64.25" width="201.5" height="149.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-11" value="Problem Faced: How do we add environment variables to lambdas(on aws)&lt;br&gt;- lambdas are deployed during the deployment process and each one can have different environment variables&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="470" y="250" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-13" value="function 1&lt;br&gt;env var 1: &quot;hello world&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="340" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-14" value="function 2&lt;br&gt;env var 1: &quot;goodbye world&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="340" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-15" value="deployment runtime&lt;br&gt;what will env var 1 be?" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="580" y="390" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-16" value="Possible solutions: TBD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="340" y="540" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-17" value="Our solution:&amp;nbsp; create a .env file for each lambda and deploy the secrets after the lambdas are created&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="320" y="610" width="560" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-19" value="Aws Lambdas&lt;br&gt;function 1&lt;br&gt;env var 1: &quot;goodbye world&quot;&lt;br&gt;function 2&lt;br&gt;env var 1: &quot;goodbye world&quot;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="1000" y="340" width="251" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-20" value="Problems:&lt;br&gt;stripe secrets could be sent to the wrong app&lt;br&gt;developer could have buggy code&lt;br&gt;microservices are using wrong values as inputs&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="1010" y="580" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-22" value="Secret Deployment" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="690" y="650" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="590" y="770.06" width="487.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-27" value="core secrets" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="657.5" y="770" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jMvkovBuoHrUsS4-bNUf-1" target="1zZ-kXXonkYbU6ajhqvE-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1077.5" y="829.56" as="sourcePoint" />
+            <mxPoint x="1152.5000225389003" y="829.6099999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1078" y="825" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-30" value="Secrets Deployment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="712.5" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-31" value="Cloud&lt;br&gt;function 1 &amp;amp; 2&lt;br&gt;var 1: &quot;hello world&quot;&lt;br&gt;path2/otherFunction&lt;br&gt;var 1: &quot;goodbye world&quot;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="1174" y="750.56" width="201.5" height="149.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-33" value="given the deployed function arns" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="860" y="700" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-34" value="single .env /folder" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="660" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-35" value="deploy env variable to lambda" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="895" y="805.06" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-38" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="jMvkovBuoHrUsS4-bNUf-1" source="1zZ-kXXonkYbU6ajhqvE-27" target="1zZ-kXXonkYbU6ajhqvE-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="660" as="sourcePoint" />
+            <mxPoint x="870" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-39" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;elbow=vertical;startArrow=block;startFill=1;endFill=1;strokeColor=#545B64;rounded=0;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="jMvkovBuoHrUsS4-bNUf-1" source="1zZ-kXXonkYbU6ajhqvE-15" target="1zZ-kXXonkYbU6ajhqvE-19">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="790" y="320" as="sourcePoint" />
+            <mxPoint x="890" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="880" y="428" />
+              <mxPoint x="880" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ijDBPvHtkqdA_Prwevkj-6" value="example outcome" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1zZ-kXXonkYbU6ajhqvE-39">
+          <mxGeometry x="-0.1896" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-40" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="jMvkovBuoHrUsS4-bNUf-1" source="1zZ-kXXonkYbU6ajhqvE-13" target="1zZ-kXXonkYbU6ajhqvE-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="340" as="sourcePoint" />
+            <mxPoint x="870" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1zZ-kXXonkYbU6ajhqvE-41" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.633;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="jMvkovBuoHrUsS4-bNUf-1" source="1zZ-kXXonkYbU6ajhqvE-14" target="1zZ-kXXonkYbU6ajhqvE-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="340" as="sourcePoint" />
+            <mxPoint x="870" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ijDBPvHtkqdA_Prwevkj-0" value="function 1&lt;br&gt;var 1: &quot;hello world&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="290" y="710.06" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ijDBPvHtkqdA_Prwevkj-1" value="otherFunction&lt;br&gt;var 1: &quot;goodbye world&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="300" y="885" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ijDBPvHtkqdA_Prwevkj-2" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.633;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="jMvkovBuoHrUsS4-bNUf-1" source="ijDBPvHtkqdA_Prwevkj-0" target="1zZ-kXXonkYbU6ajhqvE-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="390" as="sourcePoint" />
+            <mxPoint x="590" y="420" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ijDBPvHtkqdA_Prwevkj-4" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="jMvkovBuoHrUsS4-bNUf-1" source="ijDBPvHtkqdA_Prwevkj-1" target="1zZ-kXXonkYbU6ajhqvE-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="807.98" as="sourcePoint" />
+            <mxPoint x="487.5" y="845.06" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ijDBPvHtkqdA_Prwevkj-11" value="functions Dir" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="300" y="690" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ijDBPvHtkqdA_Prwevkj-12" value="path2/" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="325" y="860" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ijDBPvHtkqdA_Prwevkj-15" value="function 2&lt;br&gt;var 1: &quot;hello world&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jMvkovBuoHrUsS4-bNUf-1">
+          <mxGeometry x="290" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ijDBPvHtkqdA_Prwevkj-16" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="jMvkovBuoHrUsS4-bNUf-1" source="ijDBPvHtkqdA_Prwevkj-15" target="1zZ-kXXonkYbU6ajhqvE-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="758.04" as="sourcePoint" />
+            <mxPoint x="600" y="845.06" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
